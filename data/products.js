@@ -623,19 +623,61 @@ export const products = [
     ]
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a955",
-    image: "images/products/men-cozy-fleece-zip-up-hoodie-red.jpg",
-    name: "Men's Full-Zip Hooded Fleece Sweatshirt",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a955-id1",
+    image: "images/products/men-golf-polo-t-shirt-blue.jpg",
+    name: "Men's Golf T-Shirt",
+    rating: {
+      stars: 4.5,
+      count: 2157
+    },
+    priceCents: 2900,
+    keywords: [
+      "sweaters",
+      "T-Shirt",
+      "apparel",
+      "mens"
+    ]
+  },
+  {
+    id: "bc2847e9-5323-403f-b7cf-57fde044a955-id2",
+    image: "images/products/sky-flower-stud-earrings.webp",
+    name: "Sky Flower Stud Earring",
     rating: {
       stars: 4.5,
       count: 3157
     },
     priceCents: 2400,
     keywords: [
-      "sweaters",
-      "hoodies",
-      "apparel",
-      "mens"
+      "jelwery"
+    ]
+  },
+  {
+    id: "bc2847e9-5323-403f-b7cf-57fde044a955-id3",
+    image: "images/products/straw-sunhat.webp",
+    name: "Straw Sunhat",
+    rating: {
+      stars: 4.5,
+      count: 3157
+    },
+    priceCents: 1000,
+    keywords: [
+      "hat",
+      "summer",
+      "beach"
+    ]
+  },
+  {
+    id: "bc2847e9-5323-403f-b7cf-57fde044a955-id4",
+    image: "images/products/round-airtight-food-storage-containers.jpg",
+    name: "Round Airtight Food Storage",
+    rating: {
+      stars: 4.5,
+      count: 3157
+    },
+    priceCents: 1500,
+    keywords: [
+      "container",
+      "food storage",
     ]
   }
 ];

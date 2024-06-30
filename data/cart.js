@@ -29,10 +29,14 @@ export function addToCart(productId) {
         matchingItem.quantity += selectorElement;
     } else {
         cart.push({
-            productId: productId,
+            productId,
             quantity: 1
         });
     }
+
+    //const addedMessage = document.querySelector(`.js-added-to-cart-${productId}`);
+
+    //addedMessage.classList.add('added-message');
 
     saveToStorage();
 }
